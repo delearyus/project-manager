@@ -16,9 +16,12 @@ extra-source-files:  README.md
 executable pm
   hs-source-dirs:      src
   main-is:             Main.hs
-  other-modules:       Project
+  other-modules:       Project, TempFile
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
                        containers,
                        directory,
-                       HaXml
+                       HaXml,
+                       polyparse,
+                       process,
+                       temporary
