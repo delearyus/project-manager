@@ -6,13 +6,14 @@ headache of switching between common tasks in the terminal.
 For example:
 When switching over to working on a web-related task, a common workflow might
 be:
-    1)  move to the directory of the server files
-    2)  check git to make sure you are on the most recent branch
-    3)  start up and background a locally hosted server
-    4)  start up and background a listener to check for file edits and rebuild
-        the server
-    5)  open a browser and navigate to localhost on the proper port
-    6)  open a text editor or IDE and start coding.
+
+1)  move to the directory of the server files
+2)  check git to make sure you are on the most recent branch
+3)  start up and background a locally hosted server
+4)  start up and background a listener to check for file edits and rebuild
+    the server
+5)  open a browser and navigate to localhost on the proper port
+6)  open a text editor or IDE and start coding.
 
 While not horrendously complicated, this gets time consuming and boring. It
 could be automated with a shell script, but these would quickly begin to
