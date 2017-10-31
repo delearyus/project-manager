@@ -29,13 +29,13 @@ scripting.
 at the moment, project-manager is roughly speaking usable, offering the
 following commands:
 
-    +   __pm list__: list all existing projects
-    +   __pm start <name>__: activate the given project
-    +   __pm stop__: stop the currently active project
-    +   __pm create <name> <blurb>__: create a new project with a name and
-        a blurb, and the rest default values
-    +   __pm edit <name|desc|start|stop> <project>__: edit the values of the
-        given field in `$EDITOR`
++   __pm list__: list all existing projects
++   __pm start <name>__: activate the given project
++   __pm stop__: stop the currently active project
++   __pm create <name> <blurb>__: create a new project with a name and
+    a blurb, and the rest default values
++   __pm edit <name|desc|start|stop> <project>__: edit the values of the
+    given field in `$EDITOR`
 
 Information about projects is stored in an XML file whose location is
 determined by the `PM_PROJECT_FILE`
@@ -45,14 +45,14 @@ determined by the `PM_PROJECT_FILE`
 project-manager is still in its very early stages, so there's a lot of things
 that I want to add.
 
-    +   Ability to delete projects
-    +   project statuses - mark a project as active, suspended, or finished,
-        and filter the `pm list` command by status
-    +   todos: each project can currently have a list of todo items, but these
-        cannot be interacted with in any meaningful way at the moment.
-    +   Better error handling and usage/help messages
-    +   Ability to rename a project without opening an editor (perhaps
-        a separate rename command?)
-    +   REFACTORING!! I hate working with ugly code, and a lot of it is in fact
-        quite hideous, but done is better than perfect so this is at the bottom
-        of the list.
++   Ability to delete projects
++   project statuses - mark a project as active, suspended, or finished,
+    and filter the `pm list` command by status
++   todos: each project can currently have a list of todo items, but these
+    cannot be interacted with in any meaningful way at the moment.
++   Better error handling and usage/help messages
++   Ability to rename a project without opening an editor (perhaps
+    a separate rename command?)
++   REFACTORING!! I hate working with ugly code, and a lot of it is in fact
+    quite hideous, but done is better than perfect so this is at the bottom
+    of the list.
