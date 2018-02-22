@@ -1,5 +1,11 @@
 # project-manager
 
+**This project has been abandoned in favor of hspm, which is exactly the same
+except that I remade the codebase from scratch and changed the name. This repo
+is only here because I want to keep a record of this, but merging unrelated
+histories feels kind of dirty.**
+
+
 Project Manager is a haskell-based command-line tool for dealing with the
 headache of switching between common tasks in the terminal.
 
